@@ -248,6 +248,12 @@ Template Name: Plantilla TR3S LAB Fullscreen
             overflow: hidden; 
         }
 
+        .product-detail-image-placeholder a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
         .product-detail-image-placeholder img {
             width: 100%; 
             height: 100%; 
@@ -400,7 +406,9 @@ Template Name: Plantilla TR3S LAB Fullscreen
                 </div>
                 <h2 class="product-detail-title">FUN</h2>
                 <div class="product-detail-image-placeholder">
-                    <img src="https://treslab.co/wp-content/uploads/2025/08/TRES-LAB-P3.jpeg" alt="Producto FUN">
+                    <a href="https://treslab.co/product/fun/">
+                        <img src="https://treslab.co/wp-content/uploads/2025/08/TRES-LAB-P3.jpeg" alt="Producto FUN">
+                    </a>
                 </div>
                 <div class="product-detail-image-caption">
                     <span>$100.000</span>
